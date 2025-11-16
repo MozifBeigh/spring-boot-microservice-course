@@ -1,10 +1,8 @@
 package com.mozif.bookstore.catalog.web.controllers.exception;
 
-
+import com.mozif.bookstore.catalog.domain.ProductNotFoundException;
 import java.net.URI;
 import java.time.Instant;
-
-import com.mozif.bookstore.catalog.domain.ProductNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ProblemDetail;
 import org.springframework.web.bind.annotation.ExceptionHandler;
